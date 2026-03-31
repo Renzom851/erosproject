@@ -1,0 +1,89 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Support My Friend Eros Vladimir Nietes</title>
+<link rel="stylesheet" href="style.css">
+
+
+
+<!-- Open Graph (Discord, Twitter, WhatsApp preview) -->
+<meta property="og:title" content="Support Her New Beginning 💚">
+<meta property="og:description" content="Help her become her true self. Every donation matters.">
+<meta property="og:image" content="https://yourdomain.com/friend1.png">
+<meta property="og:url" content="https://yourdomain.com">
+<meta property="og:type" content="website">
+
+<!-- Twitter preview -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Support Her New Beginning 💚">
+<meta name="twitter:description" content="Help her become her true self.">
+<meta name="twitter:image" content="https://yourdomain.com/friend1.png">
+</head>
+<body>
+
+<div class="container">
+
+<header class="glass">
+<h1>💚 New Beginning for Eros Vladimir Nietes</h1>
+<p>Help her become her true self as a woman</p>
+</header>
+
+<section class="progress-section glass">
+<h2>Donation Progress</h2>
+<div class="progress-bar">
+<div id="progress"></div>
+</div>
+<p id="progress-text">$0 / $10,000</p>
+<input type="number" id="donationInput" placeholder="Enter donation amount">
+<button onclick="addDonation()">Update</button>
+</section>
+
+<section class="photos glass">
+<h2>Her Journey</h2>
+
+<div class="photo-grid">
+    <img src="friend1.png" alt="">
+    <img src="friend2.png" alt="">
+    <img src="friend3.png" alt="">
+    
+</div>
+
+</section>
+
+<section class="donation glass">
+<h2>Crypto Donations</h2>
+
+<div class="wallet">
+<h3>Bitcoin</h3>
+<p id="btc">bc1pu5rxas95fj5l2gs7xg2gn9hyxzegldt70d432mfje928xfd0thkq9thssm</p>
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=your_btc_address_here">
+<button onclick="copyAddress('btc')">Copy</button>
+</div>
+
+<div class="wallet">
+<h3>Ethereum</h3>
+<p id="eth">0x91c538ce34dd902b873e9d2ef89bdbe0a0907cc8</p>
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=your_eth_address_here">
+<button onclick="copyAddress('eth')">Copy</button>
+</div>
+
+<div class="wallet">
+<h3>Solana</h3>
+<p id="sol">63hnaajs3ekPDjWCJbHMbqrDQ3XkTdTKVjvEK2c8TcAC</p>
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=your_solana_address_here">
+<button onclick="copyAddress('sol')">Copy</button>
+</div>
+
+</section>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
